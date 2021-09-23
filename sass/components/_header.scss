@@ -62,9 +62,6 @@
   }
 
   // .main-header__text
-
-  &__text {
-  }
 }
 
 .main-header__logo {
@@ -79,7 +76,7 @@
   letter-spacing: 0.03em;
   color: $blue-color;
 }
-.logo-wrap {
+.logo__wrap {
   color: $black-color;
 }
 .navigation {
