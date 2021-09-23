@@ -20,13 +20,13 @@
   <body>
     <header class="main-header">
       <div class="main-header__conteiner conteiner">
-        <a href="./index.html" class="logo"
+        <a href="./index.html" class="logo main-header__logo"
           >Web<span class="logo-wrap">Studio</span></a
         >
         <nav class="navigation">
           <ul class="navigation__list">
-            <li class="navigation__item">
-              <a class="navigation__link" href="">Студия</a>
+            <li class="navigation__item ">
+              <a class="navigation__link navigation__link--active" href="">Студия</a>
             </li>
             <li class="navigation__item">
               <a class="navigation__link" href="./portfolio.html">Портфолио</a>
@@ -58,64 +58,64 @@
     </header>
     <main>
       <section class="main-section section">
-        <div class="conteiner">
-          <h1 class="main-section-title">
+        <div class="conteiner main-section--conteiner">
+          <h1 class="main-section__heading">
             Эффективные решения для вашего бизнеса
           </h1>
-          <button type="button" class="main-button" data-modal-open>
+          <button type="button" class="button main-section__button" data-modal-open>
             Заказать услугу
           </button>
         </div>
       </section>
       <section class="advantages section">
         <div class="conteiner">
-          <h2 class="advantages-title visually-hidden">Преимущества</h2>
-          <ul class="advantages-list">
-            <li class="advantages-list-item">
-              <div>
-                <svg class="advantages-icon" width="70px" height="70px">
+          <h2 class="visually-hidden">Преимущества</h2>
+          <ul class="advantages__list">
+            <li class="advantages__item">
+              <div class="advantages__wrap">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./img/vectors.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list-title">Внимание к деталям</h3>
-              <p class="advantages-list-text">
+              <h3 class="advantages__heading">Внимание к деталям</h3>
+              <p class="advantages__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="advantages-list-item">
-              <div>
-                <svg class="advantages-icon" width="70px" height="70px">
+            <li class="advantages__item">
+              <div class="advantages__wrap">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./img/vectors.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list-title">Пунктуальность</h3>
-              <p class="advantages-list-text">
+              <h3 class="advantages__heading">Пунктуальность</h3>
+              <p class="advantages__textt">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
 
-            <li class="advantages-list-item">
-              <div>
-                <svg class="advantages-icon" width="70px" height="70px">
+            <li class="advantages__item">
+              <div class="advantages__wrap">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./img/vectors.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list-title">Планирование</h3>
-              <p class="advantages-list-text">
+              <h3 class="advantages__heading">Планирование</h3>
+              <p class="advantages__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="advantages-list-item">
-              <div>
-                <svg class="advantages-icon" width="70px" height="70px">
+            <li class="advantages__item">
+              <div class="advantages__wrap">
+                <svg class="advantages__icon" width="70px" height="70px">
                   <use href="./img/vectors.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="advantages-list-title">Современные технологии</h3>
-              <p class="advantages-list-text">
+              <h3 class="advantages__heading">Современные технологии</h3>
+              <p class="advantages__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -399,7 +399,7 @@
             />
             <label for="email-footer"></label>
 
-            <button type="submit">
+            <button class="button" type="submit">
               Подписаться
               <svg width="24px" height="24px" fill="white">
                 <use href="./img/vectors.svg#icon-send"></use>
