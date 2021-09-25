@@ -926,8 +926,8 @@ img {
 
   border-radius: 2px;
   border: 2px solid #000000;
-  transition: border-color var(--duration) var(--cubic-bezier);
-  transition: background-color var(--duration) var(--cubic-bezier);
+  transition: border-color var(--duration) var(--cubic-bezier),
+    background-color var(--duration) var(--cubic-bezier);
 }
 .check-agree {
   position: absolute;
